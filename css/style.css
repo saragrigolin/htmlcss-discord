@@ -119,6 +119,7 @@ a.btn:hover {
     line-height: 1.7em;
     font-size: 1.3em;
     margin-bottom: 1.1em;
+    padding: 0 5%;
 }
 
 a.btn.big{
@@ -176,10 +177,10 @@ main .row h2 {
     color: #23272A;
 }
 
-main .row h3 {
+main .row p {
     font-weight: 400;
-    font-size: 1.3em;
     line-height: 1.5em;
+    font-size: 1.3em;
     color: #23272A;
 }
 
