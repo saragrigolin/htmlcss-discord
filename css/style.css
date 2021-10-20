@@ -10,6 +10,10 @@ html {
     font-family: ‘Whitney’, sans-serif;
 }
 
+body {
+    max-width: 1700px;
+}
+
 .clearfix::after {
     content: '';
     display: table;
@@ -106,7 +110,7 @@ a.btn:hover {
     width: 50%;
     margin: 0 auto;
     text-align: center;
-    padding: 10em 0;
+    padding: 7em 0;
     color: white;
 }
 
@@ -119,7 +123,7 @@ a.btn:hover {
     line-height: 1.7em;
     font-size: 1.3em;
     margin-bottom: 1.1em;
-    padding: 0 5%;
+    padding: 0 2%;
 }
 
 a.btn.big{
