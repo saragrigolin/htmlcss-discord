@@ -178,7 +178,7 @@ main > .row {
     padding: 35px 120px 0 0;
 }
 
-.row h2 {
+.row > h2 {
     font-size: 3em;
     margin-bottom: 30px;
     color: #23272A;
@@ -220,4 +220,47 @@ a.btn.blue{
 
 a.btn.blue:hover {
     background-color: #7983F6;
+}
+
+footer {
+    background-color: #23272A;
+    padding: 100px 0px;
+    color: white;
+}
+
+.footer-container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.footer-container .footer {
+    float: left;
+}
+
+.footer.col-left {
+    width: 25%;
+}
+
+.footer.col-li {
+    width: calc(75% / 4);
+}
+
+.footer h2 {
+    color: #7289DA;
+    font-size: 2em;
+}
+
+.footer .language {
+    margin: 30px 0;
+}
+
+.footer .language img {
+    width: 8%;
+    vertical-align: middle;
+}
+
+.social > .fab {
+    display: inline-block;
+    font-size: 1.3em;
+    padding: 0 7px;
 }
