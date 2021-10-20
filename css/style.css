@@ -10,11 +10,6 @@ html {
     font-family: ‘Whitney’, sans-serif;
 }
 
-body {
-    max-width: 1700px;
-    margin: 0 auto;
-}
-
 .clearfix::after {
     content: '';
     display: table;
@@ -145,7 +140,12 @@ a.btn.dark:hover {
 
 /* main section */
 main > .row {
-    padding: 100px 15%;
+    padding: 100px 0;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
 }
 
 .column-60 {
@@ -159,7 +159,7 @@ main > .row {
     width: 90%;
 }
 
-.row > .column-40 {
+.container > .column-40 {
     width: 40%;
     float: left;
     /* background-color: grey;
