@@ -233,6 +233,11 @@ footer {
     margin: 0 auto;
 }
 
+.footer-container .row {
+    border-bottom: 1px solid #7289DA;
+    padding-bottom: 20px;
+}
+
 .footer-container .footer {
     float: left;
 }
@@ -263,4 +268,18 @@ footer {
     display: inline-block;
     font-size: 1.3em;
     padding: 0 7px;
+}
+
+.footer > ul {
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+.footer li {
+    padding-bottom: 10px;
+}
+
+.footer li:first-child {
+    color: #7289DA;
+    font-weight: bold;
 }
