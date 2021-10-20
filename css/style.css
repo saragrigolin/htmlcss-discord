@@ -97,6 +97,7 @@ a.btn {
 
 a.btn:hover {
     color: #265ee8;
+    text-decoration: none;
 }
 
 /* jumbo */
@@ -125,6 +126,10 @@ a.btn.big{
     font-size: 1.3em;
 }
 
+a.btn.big:hover {
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+}
+
 a.btn.dark{
     background-color: #23272a;
     color: white;
@@ -132,7 +137,7 @@ a.btn.dark{
 
 
 a.btn.dark:hover {
-    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+    /* box-shadow: 0 8px 15px rgb(0 0 0 / 20%); */
     background-color: #36393f;
 }
 
@@ -165,7 +170,7 @@ main > .row {
 }
 
 .row:first-child .column-40,
-.row:last-child .column-40 {
+.row:nth-child(3) .column-40 {
     padding: 35px 0 0 120px;
 }
 
@@ -173,15 +178,46 @@ main > .row {
     padding: 35px 120px 0 0;
 }
 
-.column-40 > h2 {
+.row h2 {
     font-size: 3em;
     margin-bottom: 30px;
     color: #23272A;
 }
 
-.column-40 > h3 {
+.row h3 {
     font-weight: 400;
     font-size: 1.3em;
     line-height: 1.5em;
     color: #23272A;
+}
+
+.row.tech {
+    text-align: center;
+}
+
+.row.tech img {
+    width: 100%;
+}
+
+.star-background {
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 2em;
+    font-weight: bold;
+    display: inline-block;
+    padding: 50px 50px 0 50px;
+}
+
+.mac-download > .download {
+    margin-top: 30px;
+}
+
+a.btn.blue{
+    background-color: #5865f2;
+    color: white;
+}
+
+a.btn.blue:hover {
+    background-color: #7983F6;
 }
