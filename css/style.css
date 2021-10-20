@@ -137,13 +137,9 @@ a.btn.dark:hover {
     background-color: #36393f;
 }
 
-main {
-    width: 70%;
-    margin: 0 auto;
-}
 
 main > .row {
-    padding: 150px 0;
+    padding: 100px 15%;
 }
 
 .column-60 {
@@ -174,13 +170,13 @@ main > .row {
     padding: 35px 120px 0 0;
 }
 
-.row > h2 {
+main .row h2 {
     font-size: 3em;
     margin-bottom: 30px;
     color: #23272A;
 }
 
-.row h3 {
+main .row h3 {
     font-weight: 400;
     font-size: 1.3em;
     line-height: 1.5em;
@@ -294,4 +290,20 @@ footer {
 
 .float-right {
     float: right;
+}
+
+.row.grey {
+    background-color: #F6F6F6;
+}
+
+path {
+    fill: #F6F6F6;
+}
+
+svg {
+    display: block;
+}
+
+svg.white {
+    transform: rotate(180deg);
 }
